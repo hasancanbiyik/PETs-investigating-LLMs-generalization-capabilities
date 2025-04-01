@@ -1,0 +1,595 @@
+2025-02-01 02:13:37.293318
+in this experiment i am doing something interesting
+MXM_LOG_LEVEL: error
+SLURM_NODELIST: hawk-gpu6
+LMOD_FAMILY_COMPILER_VERSION: 4.8.5
+MANPATH: /usr/local/mpi/gcc/openmpi-2.0.4/share/man:/usr/share/lmod/lmod/share/man::
+SLURM_JOB_NAME: sys/dashboard/sys/Jupyter
+XDG_SESSION_ID: c21
+_ModuleTable003_: MDUvMDAwMDAwMDAyLjAwMDAwMDAwMC4wMDAwMDAwMDQuKnpmaW5hbCIsCn0sCn0sCm1wYXRoQSA9IHsKIi9tY21zL21vZHVsZWZpbGVzIiwgIi9ldGMvbW9kdWxlZmlsZXMiLCAiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcyIKLCAiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9MaW51eCIsICIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmUiLCAiL3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsCn0sCnN5c3RlbUJhc2VNUEFUSCA9ICIvbWNtcy9tb2R1bGVmaWxlczovZXRjL21vZHVsZWZpbGVzOi91c3Ivc2hhcmUvbW9kdWxlZmlsZXM6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9MaW51eDovdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmU6L3Vzci9zaGFyZS9sbW9k
+HOSTNAME: hawk-gpu6
+SLURM_TOPOLOGY_ADDR: hawk-gpu6
+SLURMD_NODENAME: hawk-gpu6
+SLURM_PRIO_PROCESS: 0
+SLURM_NODE_ALIASES: (null)
+__LMOD_REF_COUNT_MODULEPATH: /mcms/modulefiles:1;/etc/modulefiles:1;/usr/share/modulefiles:1;/usr/share/modulefiles/Linux:1;/usr/share/modulefiles/Core:1;/usr/share/lmod/lmod/modulefiles/Core:1
+SHELL: /bin/bash
+SLURM_EXPORT_ENV: NONE
+host: hawk-gpu6.csam.montclair.edu
+TERM: xterm-256color
+SLURM_RESV_PORT: 1
+LMOD_ROOT: /usr/share/lmod
+HISTSIZE: 1000
+SLURM_JOB_QOS: normal
+LMOD_SYSTEM_DEFAULT_MODULES: StdEnv
+MODULEPATH_ROOT: /usr/share/modulefiles
+SLURM_TOPOLOGY_ADDR_PATTERN: node
+TMPDIR: /tmp
+CONDA_SHLVL: 1
+CONDA_PROMPT_MODIFIER: (base) 
+LMOD_PKG: /usr/share/lmod/lmod
+LMOD_VERSION: 8.7.20
+PYDEVD_USE_FRAME_EVAL: NO
+CONFIG_FILE: /home/biyikh/ondemand/data/sys/dashboard/batch_connect/sys/Jupyter/output/994fe3b1-7473-42aa-9a63-3324fe289048/config.py
+QT_GRAPHICSSYSTEM_CHECKED: 1
+USER: biyikh
+SLURM_NNODES: 1
+LMOD_sys: Linux
+LS_COLORS: rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+LD_LIBRARY_PATH: /usr/local/mpi/gcc/openmpi-2.0.4/lib64
+CONDA_EXE: /usr/local/anaconda3/bin/conda
+JUPYTER_SERVER_URL: http://localhost:55697/node/hawk-gpu6.csam.montclair.edu/55697/
+SLURM_JOBID: 19586
+_ModuleTable004_: L2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsCn0K
+CXXFLAGS: -march=native
+COLUMNS: 86
+VIRTUAL_ENV: /nfs/storage1/home/biyikh/Euphemisms/en_train/EXPERIMENT_RUNNER/.venv
+_CE_CONDA: 
+LMOD_FAMILY_MPI_VERSION: gcc/4.8.5/2.0.4
+PGI: /opt/pgi
+_ModuleTable001_: X01vZHVsZVRhYmxlXyA9IHsKTVR2ZXJzaW9uID0gMywKY19yZWJ1aWxkVGltZSA9IGZhbHNlLApjX3Nob3J0VGltZSA9IGZhbHNlLApkZXB0aFQgPSB7fSwKZmFtaWx5ID0gewpjb21waWxlciA9ICJnY2MiLAptcGkgPSAib3Blbm1waSIsCn0sCm1UID0gewpTdGRFbnYgPSB7CmZuID0gIi9tY21zL21vZHVsZWZpbGVzL1N0ZEVudi5sdWEiLApmdWxsTmFtZSA9ICJTdGRFbnYiLApsb2FkT3JkZXIgPSAzLApwcm9wVCA9IHt9LApzdGFja0RlcHRoID0gMCwKc3RhdHVzID0gImFjdGl2ZSIsCnVzZXJOYW1lID0gIlN0ZEVudiIsCndWID0gIk0uKnpmaW5hbCIsCn0sCmdjYyA9IHsKZm4gPSAiL21jbXMvbW9kdWxlZmlsZXMvZ2NjLzQuOC41Lmx1YSIsCmZ1bGxOYW1lID0gImdjYy80
+MAIL: /var/spool/mail/biyikh
+PATH: /nfs/storage1/home/biyikh/Euphemisms/en_train/EXPERIMENT_RUNNER/.venv/bin:/usr/local/mpi/gcc/openmpi-2.0.4/bin:/usr/local/go/bin:/usr/local/anaconda3/bin:/usr/local/anaconda3/condabin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/biyikh/go/bin:/usr/local/julia/bin:/opt/pgi/linux86-64/2019/bin:/home/biyikh/.local/bin:/home/biyikh/bin:/home/biyikh/.local/bin:/home/biyikh/bin
+SLURM_TASKS_PER_NODE: 2
+SLURM_CONF: /etc/slurm/slurm.conf
+SLURM_WORKING_CLUSTER: microway:hawk-int:6817:8960:101
+SLURM_JOB_ID: 19586
+CONDA_PREFIX: /usr/local/anaconda3
+PWD: /home/biyikh/Euphemisms/en_train/EXPERIMENT_RUNNER
+SLURM_JOB_USER: biyikh
+_LMFILES_: /mcms/modulefiles/gcc/4.8.5.lua:/mcms/modulefiles/openmpi/gcc/4.8.5/2.0.4.lua:/mcms/modulefiles/StdEnv.lua
+LANG: en_US.UTF-8
+MODULEPATH: /mcms/modulefiles:/etc/modulefiles:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core
+_ModuleTable_Sz_: 4
+SLURM_JOB_UID: 3115
+LOADEDMODULES: gcc/4.8.5:openmpi/gcc/4.8.5/2.0.4:StdEnv
+SLURM_NODEID: 0
+SLURM_SUBMIT_DIR: /var/www/ood/apps/sys/dashboard
+F77: gfortran
+LMOD_CMD: /usr/share/lmod/lmod/libexec/lmod
+SLURM_TASK_PID: 46078
+LINES: 41
+MPI_VERSION: 2.0.4
+SLURM_CPUS_ON_NODE: 2
+_CE_M: 
+HISTCONTROL: ignoredups
+ENVIRONMENT: BATCH
+SLURM_PROCID: 0
+CXX: g++
+SLURM_JOB_NODELIST: hawk-gpu6
+SHLVL: 5
+HOME: /home/biyikh
+__LMOD_REF_COUNT_PATH: /usr/local/mpi/gcc/openmpi-2.0.4/bin:1;/usr/local/go/bin:2;/usr/local/anaconda3/bin:1;/usr/local/anaconda3/condabin:1;/usr/local/bin:1;/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1;/home/biyikh/go/bin:2;/usr/local/julia/bin:2;/opt/pgi/linux86-64/2019/bin:2;/home/biyikh/.local/bin:1;/home/biyikh/bin:1
+SLURM_GET_USER_ENV: 1
+SLURM_LOCALID: 0
+JUPYTER_SERVER_ROOT: /home/biyikh
+_ModuleTable002_: LjguNSIsCmxvYWRPcmRlciA9IDEsCnByb3BUID0ge30sCnN0YWNrRGVwdGggPSAxLApzdGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAiZ2NjLzQuOC41IiwKd1YgPSAiXjAwMDAwMDA0LjAwMDAwMDAwOC4wMDAwMDAwMDUuKnpmaW5hbCIsCn0sCm9wZW5tcGkgPSB7CmZuID0gIi9tY21zL21vZHVsZWZpbGVzL29wZW5tcGkvZ2NjLzQuOC41LzIuMC40Lmx1YSIsCmZ1bGxOYW1lID0gIm9wZW5tcGkvZ2NjLzQuOC41LzIuMC40IiwKbG9hZE9yZGVyID0gMiwKcHJvcFQgPSB7fSwKc3RhY2tEZXB0aCA9IDEsCnN0YXR1cyA9ICJhY3RpdmUiLAp1c2VyTmFtZSA9ICJvcGVubXBpL2djYy80LjguNS8yLjAuNCIsCndWID0gIipnY2MvXjAwMDAwMDA0LjAwMDAwMDAwOC4wMDAwMDAw
+SLURM_CLUSTER_NAME: microway
+SLURM_JOB_CPUS_PER_NODE: 2
+SLURM_JOB_GID: 3001
+CFLAGS: -march=native
+SLURM_SUBMIT_HOST: hawk-ood.csam.montclair.edu
+SLURM_GTIDS: 0
+FC: gfortran
+__LMOD_REF_COUNT_INCLUDE: /usr/local/mpi/gcc/openmpi-2.0.4/include:1
+BASH_ENV: /usr/share/lmod/lmod/init/bash
+SLURM_JOB_PARTITION: gpu-day-long
+CONDA_PYTHON_EXE: /usr/local/anaconda3/bin/python
+LOGNAME: biyikh
+MODULESHOME: /usr/share/lmod/lmod
+SLURM_JOB_NUM_NODES: 1
+MPI_HOME: /usr/local/mpi/gcc/openmpi-2.0.4
+CONDA_DEFAULT_ENV: base
+LMOD_SETTARG_FULL_SUPPORT: no
+LESSOPEN: ||/usr/bin/lesspipe.sh %s
+GOPATH: /home/biyikh/go
+__LMOD_REF_COUNT_LD_LIBRARY_PATH: /usr/local/mpi/gcc/openmpi-2.0.4/lib64:1
+PKG_CONFIG_PATH: /usr/local/mpi/gcc/openmpi-2.0.4/lib/pkgconfig
+__Init_Default_Modules: 1
+port: 55697
+LMOD_FAMILY_COMPILER: gcc
+XDG_RUNTIME_DIR: /run/user/3115
+CC: gcc
+__LMOD_REF_COUNT_PKG_CONFIG_PATH: /usr/local/mpi/gcc/openmpi-2.0.4/lib/pkgconfig:1
+PYXTERM_DIMENSIONS: 80x25
+__LMOD_REF_COUNT_MANPATH: /usr/local/mpi/gcc/openmpi-2.0.4/share/man:1;/usr/share/lmod/lmod/share/man:1
+LMOD_DIR: /usr/share/lmod/lmod/libexec
+INCLUDE: /usr/local/mpi/gcc/openmpi-2.0.4/include
+SLURM_MEM_PER_NODE: 385632
+LMOD_FAMILY_MPI: openmpi
+BASH_FUNC_port_used(): () {  local port="${1#*:}";
+ local host=$((expr "${1}" : '\(.*\):' || echo "localhost") | awk 'END{print $NF}');
+ local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);
+ for strategy in ${port_strategies[@]};
+ do
+ $strategy $host $port;
+ status=$?;
+ if [[ "$status" == "0" ]] || [[ "$status" == "1" ]]; then
+ return $status;
+ fi;
+ done;
+ return 127
+}
+BASH_FUNC_module(): () {  if [ -z "${LMOD_SH_DBG_ON+x}" ]; then
+ case "$-" in 
+ *v*x*)
+ __lmod_sh_dbg='vx'
+ ;;
+ *v*)
+ __lmod_sh_dbg='v'
+ ;;
+ *x*)
+ __lmod_sh_dbg='x'
+ ;;
+ esac;
+ fi;
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+ set +$__lmod_sh_dbg;
+ echo "Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output" 1>&2;
+ fi;
+ eval "$($LMOD_CMD shell "$@")" && eval "$(${LMOD_SETTARG_CMD:-:} -s sh)";
+ __lmod_my_status=$?;
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+ echo "Shell debugging restarted" 1>&2;
+ set -$__lmod_sh_dbg;
+ fi;
+ unset __lmod_sh_dbg;
+ return $__lmod_my_status
+}
+BASH_FUNC_wait_until_port_used(): () {  local port="${1}";
+ local time="${2:-30}";
+ for ((i=1; i<=time*2; i++))
+ do
+ port_used "${port}";
+ port_status=$?;
+ if [ "$port_status" == "0" ]; then
+ return 0;
+ else
+ if [ "$port_status" == "127" ]; then
+ echo "commands to find port were either not found or inaccessible.";
+ echo "command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.";
+ return 127;
+ fi;
+ fi;
+ sleep 0.5;
+ done;
+ return 1
+}
+BASH_FUNC_find_port(): () {  local host="${1:-localhost}";
+ local port=$(random_number "${2:-2000}" "${3:-65535}");
+ while port_used "${host}:${port}"; do
+ port=$(random_number "${2:-2000}" "${3:-65535}");
+ done;
+ echo "${port}"
+}
+BASH_FUNC_random_number(): () {  shuf -i ${1}-${2} -n 1
+}
+BASH_FUNC_source_helpers(): () {  function random_number () 
+ { 
+ shuf -i ${1}-${2} -n 1
+ };
+ export -f random_number;
+ function port_used_python () 
+ { 
+ python -c "import socket; socket.socket().connect(('$1',$2))" > /dev/null 2>&1
+ };
+ function port_used_python3 () 
+ { 
+ python3 -c "import socket; socket.socket().connect(('$1',$2))" > /dev/null 2>&1
+ };
+ function port_used_nc () 
+ { 
+ nc -w 2 "$1" "$2" < /dev/null > /dev/null 2>&1
+ };
+ function port_used_lsof () 
+ { 
+ lsof -i :"$2" > /dev/null 2>&1
+ };
+ function port_used_bash () 
+ { 
+ local bash_supported=$(strings /bin/bash 2>/dev/null | grep tcp);
+ if [ "$bash_supported" == "/dev/tcp/*/*" ]; then
+ ( : < /dev/tcp/$1/$2 ) > /dev/null 2>&1;
+ else
+ return 127;
+ fi
+ };
+ function port_used () 
+ { 
+ local port="${1#*:}";
+ local host=$((expr "${1}" : '\(.*\):' || echo "localhost") | awk 'END{print $NF}');
+ local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);
+ for strategy in ${port_strategies[@]};
+ do
+ $strategy $host $port;
+ status=$?;
+ if [[ "$status" == "0" ]] || [[ "$status" == "1" ]]; then
+ return $status;
+ fi;
+ done;
+ return 127
+ };
+ export -f port_used;
+ function find_port () 
+ { 
+ local host="${1:-localhost}";
+ local port=$(random_number "${2:-2000}" "${3:-65535}");
+ while port_used "${host}:${port}"; do
+ port=$(random_number "${2:-2000}" "${3:-65535}");
+ done;
+ echo "${port}"
+ };
+ export -f find_port;
+ function wait_until_port_used () 
+ { 
+ local port="${1}";
+ local time="${2:-30}";
+ for ((i=1; i<=time*2; i++))
+ do
+ port_used "${port}";
+ port_status=$?;
+ if [ "$port_status" == "0" ]; then
+ return 0;
+ else
+ if [ "$port_status" == "127" ]; then
+ echo "commands to find port were either not found or inaccessible.";
+ echo "command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.";
+ return 127;
+ fi;
+ fi;
+ sleep 0.5;
+ done;
+ return 1
+ };
+ export -f wait_until_port_used;
+ function create_passwd () 
+ { 
+ tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}
+ };
+ export -f create_passwd
+}
+BASH_FUNC_ml(): () {  eval "$($LMOD_DIR/ml_cmd "$@")"
+}
+BASH_FUNC_create_passwd(): () {  tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}
+}
+_: /nfs/storage1/home/biyikh/Euphemisms/en_train/EXPERIMENT_RUNNER/.venv/bin/python3
+KMP_DUPLICATE_LIB_OK: True
+KMP_INIT_AT_FORK: FALSE
+MODEL_NAME: xlm-roberta-base
+TOKENIZER_NAME: xlm-roberta-base
+EXP_DIR: /home/biyikh/Euphemisms/en_splits
+SAVE_MODELS: True
+LOG: in this experiment i am doing something interesting
+START_FILENUM: 0
+END_FILENUM: 9
+NUM_EPOCHS: 30
+LEARNING_RATE: 1e-5
+WARMUP_STEPS: 0
+BATCH_SIZE: 4
+TRAIN_RESULTS_CSV: /home/biyikh/Euphemisms/en_splits/results_train.csv
+EARLY_STOPPING_PATIENCE: 5
+LAYERS_TO_FREEZE: -1
+SPECIAL_TOKENS: -1
+EVALUATION: True
+TEST_RESULTS_CSV: /home/biyikh/Euphemisms/en_splits/results_test.csv
+LANGS: ['english']
+BULK_TESTING_MODIFIER: -1
+2025-02-01 02:24:19.872543
+in this experiment i am doing something interesting
+MXM_LOG_LEVEL: error
+SLURM_NODELIST: hawk-gpu6
+LMOD_FAMILY_COMPILER_VERSION: 4.8.5
+MANPATH: /usr/local/mpi/gcc/openmpi-2.0.4/share/man:/usr/share/lmod/lmod/share/man::
+SLURM_JOB_NAME: sys/dashboard/sys/Jupyter
+XDG_SESSION_ID: c21
+_ModuleTable003_: MDUvMDAwMDAwMDAyLjAwMDAwMDAwMC4wMDAwMDAwMDQuKnpmaW5hbCIsCn0sCn0sCm1wYXRoQSA9IHsKIi9tY21zL21vZHVsZWZpbGVzIiwgIi9ldGMvbW9kdWxlZmlsZXMiLCAiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcyIKLCAiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9MaW51eCIsICIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmUiLCAiL3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsCn0sCnN5c3RlbUJhc2VNUEFUSCA9ICIvbWNtcy9tb2R1bGVmaWxlczovZXRjL21vZHVsZWZpbGVzOi91c3Ivc2hhcmUvbW9kdWxlZmlsZXM6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9MaW51eDovdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmU6L3Vzci9zaGFyZS9sbW9k
+HOSTNAME: hawk-gpu6
+SLURM_TOPOLOGY_ADDR: hawk-gpu6
+SLURMD_NODENAME: hawk-gpu6
+SLURM_PRIO_PROCESS: 0
+SLURM_NODE_ALIASES: (null)
+__LMOD_REF_COUNT_MODULEPATH: /mcms/modulefiles:1;/etc/modulefiles:1;/usr/share/modulefiles:1;/usr/share/modulefiles/Linux:1;/usr/share/modulefiles/Core:1;/usr/share/lmod/lmod/modulefiles/Core:1
+SHELL: /bin/bash
+SLURM_EXPORT_ENV: NONE
+host: hawk-gpu6.csam.montclair.edu
+TERM: xterm-256color
+SLURM_RESV_PORT: 1
+LMOD_ROOT: /usr/share/lmod
+HISTSIZE: 1000
+SLURM_JOB_QOS: normal
+LMOD_SYSTEM_DEFAULT_MODULES: StdEnv
+MODULEPATH_ROOT: /usr/share/modulefiles
+SLURM_TOPOLOGY_ADDR_PATTERN: node
+TMPDIR: /tmp
+CONDA_SHLVL: 1
+CONDA_PROMPT_MODIFIER: (base) 
+LMOD_PKG: /usr/share/lmod/lmod
+LMOD_VERSION: 8.7.20
+PYDEVD_USE_FRAME_EVAL: NO
+CONFIG_FILE: /home/biyikh/ondemand/data/sys/dashboard/batch_connect/sys/Jupyter/output/994fe3b1-7473-42aa-9a63-3324fe289048/config.py
+QT_GRAPHICSSYSTEM_CHECKED: 1
+USER: biyikh
+SLURM_NNODES: 1
+LMOD_sys: Linux
+LS_COLORS: rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+LD_LIBRARY_PATH: /usr/local/mpi/gcc/openmpi-2.0.4/lib64
+CONDA_EXE: /usr/local/anaconda3/bin/conda
+JUPYTER_SERVER_URL: http://localhost:55697/node/hawk-gpu6.csam.montclair.edu/55697/
+SLURM_JOBID: 19586
+_ModuleTable004_: L2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsCn0K
+CXXFLAGS: -march=native
+COLUMNS: 116
+_CE_CONDA: 
+LMOD_FAMILY_MPI_VERSION: gcc/4.8.5/2.0.4
+PGI: /opt/pgi
+_ModuleTable001_: X01vZHVsZVRhYmxlXyA9IHsKTVR2ZXJzaW9uID0gMywKY19yZWJ1aWxkVGltZSA9IGZhbHNlLApjX3Nob3J0VGltZSA9IGZhbHNlLApkZXB0aFQgPSB7fSwKZmFtaWx5ID0gewpjb21waWxlciA9ICJnY2MiLAptcGkgPSAib3Blbm1waSIsCn0sCm1UID0gewpTdGRFbnYgPSB7CmZuID0gIi9tY21zL21vZHVsZWZpbGVzL1N0ZEVudi5sdWEiLApmdWxsTmFtZSA9ICJTdGRFbnYiLApsb2FkT3JkZXIgPSAzLApwcm9wVCA9IHt9LApzdGFja0RlcHRoID0gMCwKc3RhdHVzID0gImFjdGl2ZSIsCnVzZXJOYW1lID0gIlN0ZEVudiIsCndWID0gIk0uKnpmaW5hbCIsCn0sCmdjYyA9IHsKZm4gPSAiL21jbXMvbW9kdWxlZmlsZXMvZ2NjLzQuOC41Lmx1YSIsCmZ1bGxOYW1lID0gImdjYy80
+MAIL: /var/spool/mail/biyikh
+PATH: /usr/local/mpi/gcc/openmpi-2.0.4/bin:/usr/local/go/bin:/usr/local/anaconda3/bin:/usr/local/anaconda3/condabin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/biyikh/go/bin:/usr/local/julia/bin:/opt/pgi/linux86-64/2019/bin:/home/biyikh/.local/bin:/home/biyikh/bin:/home/biyikh/.local/bin:/home/biyikh/bin
+SLURM_TASKS_PER_NODE: 2
+SLURM_CONF: /etc/slurm/slurm.conf
+SLURM_WORKING_CLUSTER: microway:hawk-int:6817:8960:101
+SLURM_JOB_ID: 19586
+CONDA_PREFIX: /usr/local/anaconda3
+PWD: /nfs/storage1/home/biyikh/Euphemisms/en_train/EXPERIMENT_RUNNER
+SLURM_JOB_USER: biyikh
+_LMFILES_: /mcms/modulefiles/gcc/4.8.5.lua:/mcms/modulefiles/openmpi/gcc/4.8.5/2.0.4.lua:/mcms/modulefiles/StdEnv.lua
+LANG: en_US.UTF-8
+MODULEPATH: /mcms/modulefiles:/etc/modulefiles:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core
+_ModuleTable_Sz_: 4
+SLURM_JOB_UID: 3115
+LOADEDMODULES: gcc/4.8.5:openmpi/gcc/4.8.5/2.0.4:StdEnv
+SLURM_NODEID: 0
+SLURM_SUBMIT_DIR: /var/www/ood/apps/sys/dashboard
+F77: gfortran
+LMOD_CMD: /usr/share/lmod/lmod/libexec/lmod
+SLURM_TASK_PID: 46078
+LINES: 41
+MPI_VERSION: 2.0.4
+SLURM_CPUS_ON_NODE: 2
+_CE_M: 
+HISTCONTROL: ignoredups
+ENVIRONMENT: BATCH
+SLURM_PROCID: 0
+CXX: g++
+SLURM_JOB_NODELIST: hawk-gpu6
+SHLVL: 5
+HOME: /home/biyikh
+__LMOD_REF_COUNT_PATH: /usr/local/mpi/gcc/openmpi-2.0.4/bin:1;/usr/local/go/bin:2;/usr/local/anaconda3/bin:1;/usr/local/anaconda3/condabin:1;/usr/local/bin:1;/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1;/home/biyikh/go/bin:2;/usr/local/julia/bin:2;/opt/pgi/linux86-64/2019/bin:2;/home/biyikh/.local/bin:1;/home/biyikh/bin:1
+SLURM_GET_USER_ENV: 1
+SLURM_LOCALID: 0
+JUPYTER_SERVER_ROOT: /home/biyikh
+_ModuleTable002_: LjguNSIsCmxvYWRPcmRlciA9IDEsCnByb3BUID0ge30sCnN0YWNrRGVwdGggPSAxLApzdGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAiZ2NjLzQuOC41IiwKd1YgPSAiXjAwMDAwMDA0LjAwMDAwMDAwOC4wMDAwMDAwMDUuKnpmaW5hbCIsCn0sCm9wZW5tcGkgPSB7CmZuID0gIi9tY21zL21vZHVsZWZpbGVzL29wZW5tcGkvZ2NjLzQuOC41LzIuMC40Lmx1YSIsCmZ1bGxOYW1lID0gIm9wZW5tcGkvZ2NjLzQuOC41LzIuMC40IiwKbG9hZE9yZGVyID0gMiwKcHJvcFQgPSB7fSwKc3RhY2tEZXB0aCA9IDEsCnN0YXR1cyA9ICJhY3RpdmUiLAp1c2VyTmFtZSA9ICJvcGVubXBpL2djYy80LjguNS8yLjAuNCIsCndWID0gIipnY2MvXjAwMDAwMDA0LjAwMDAwMDAwOC4wMDAwMDAw
+SLURM_CLUSTER_NAME: microway
+SLURM_JOB_CPUS_PER_NODE: 2
+SLURM_JOB_GID: 3001
+CFLAGS: -march=native
+SLURM_SUBMIT_HOST: hawk-ood.csam.montclair.edu
+SLURM_GTIDS: 0
+FC: gfortran
+__LMOD_REF_COUNT_INCLUDE: /usr/local/mpi/gcc/openmpi-2.0.4/include:1
+BASH_ENV: /usr/share/lmod/lmod/init/bash
+SLURM_JOB_PARTITION: gpu-day-long
+CONDA_PYTHON_EXE: /usr/local/anaconda3/bin/python
+LOGNAME: biyikh
+MODULESHOME: /usr/share/lmod/lmod
+SLURM_JOB_NUM_NODES: 1
+MPI_HOME: /usr/local/mpi/gcc/openmpi-2.0.4
+CONDA_DEFAULT_ENV: base
+LMOD_SETTARG_FULL_SUPPORT: no
+LESSOPEN: ||/usr/bin/lesspipe.sh %s
+GOPATH: /home/biyikh/go
+__LMOD_REF_COUNT_LD_LIBRARY_PATH: /usr/local/mpi/gcc/openmpi-2.0.4/lib64:1
+PKG_CONFIG_PATH: /usr/local/mpi/gcc/openmpi-2.0.4/lib/pkgconfig
+__Init_Default_Modules: 1
+port: 55697
+LMOD_FAMILY_COMPILER: gcc
+XDG_RUNTIME_DIR: /run/user/3115
+CC: gcc
+__LMOD_REF_COUNT_PKG_CONFIG_PATH: /usr/local/mpi/gcc/openmpi-2.0.4/lib/pkgconfig:1
+PYXTERM_DIMENSIONS: 80x25
+__LMOD_REF_COUNT_MANPATH: /usr/local/mpi/gcc/openmpi-2.0.4/share/man:1;/usr/share/lmod/lmod/share/man:1
+LMOD_DIR: /usr/share/lmod/lmod/libexec
+INCLUDE: /usr/local/mpi/gcc/openmpi-2.0.4/include
+SLURM_MEM_PER_NODE: 385632
+LMOD_FAMILY_MPI: openmpi
+BASH_FUNC_port_used(): () {  local port="${1#*:}";
+ local host=$((expr "${1}" : '\(.*\):' || echo "localhost") | awk 'END{print $NF}');
+ local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);
+ for strategy in ${port_strategies[@]};
+ do
+ $strategy $host $port;
+ status=$?;
+ if [[ "$status" == "0" ]] || [[ "$status" == "1" ]]; then
+ return $status;
+ fi;
+ done;
+ return 127
+}
+BASH_FUNC_module(): () {  if [ -z "${LMOD_SH_DBG_ON+x}" ]; then
+ case "$-" in 
+ *v*x*)
+ __lmod_sh_dbg='vx'
+ ;;
+ *v*)
+ __lmod_sh_dbg='v'
+ ;;
+ *x*)
+ __lmod_sh_dbg='x'
+ ;;
+ esac;
+ fi;
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+ set +$__lmod_sh_dbg;
+ echo "Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output" 1>&2;
+ fi;
+ eval "$($LMOD_CMD shell "$@")" && eval "$(${LMOD_SETTARG_CMD:-:} -s sh)";
+ __lmod_my_status=$?;
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+ echo "Shell debugging restarted" 1>&2;
+ set -$__lmod_sh_dbg;
+ fi;
+ unset __lmod_sh_dbg;
+ return $__lmod_my_status
+}
+BASH_FUNC_wait_until_port_used(): () {  local port="${1}";
+ local time="${2:-30}";
+ for ((i=1; i<=time*2; i++))
+ do
+ port_used "${port}";
+ port_status=$?;
+ if [ "$port_status" == "0" ]; then
+ return 0;
+ else
+ if [ "$port_status" == "127" ]; then
+ echo "commands to find port were either not found or inaccessible.";
+ echo "command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.";
+ return 127;
+ fi;
+ fi;
+ sleep 0.5;
+ done;
+ return 1
+}
+BASH_FUNC_find_port(): () {  local host="${1:-localhost}";
+ local port=$(random_number "${2:-2000}" "${3:-65535}");
+ while port_used "${host}:${port}"; do
+ port=$(random_number "${2:-2000}" "${3:-65535}");
+ done;
+ echo "${port}"
+}
+BASH_FUNC_random_number(): () {  shuf -i ${1}-${2} -n 1
+}
+BASH_FUNC_source_helpers(): () {  function random_number () 
+ { 
+ shuf -i ${1}-${2} -n 1
+ };
+ export -f random_number;
+ function port_used_python () 
+ { 
+ python -c "import socket; socket.socket().connect(('$1',$2))" > /dev/null 2>&1
+ };
+ function port_used_python3 () 
+ { 
+ python3 -c "import socket; socket.socket().connect(('$1',$2))" > /dev/null 2>&1
+ };
+ function port_used_nc () 
+ { 
+ nc -w 2 "$1" "$2" < /dev/null > /dev/null 2>&1
+ };
+ function port_used_lsof () 
+ { 
+ lsof -i :"$2" > /dev/null 2>&1
+ };
+ function port_used_bash () 
+ { 
+ local bash_supported=$(strings /bin/bash 2>/dev/null | grep tcp);
+ if [ "$bash_supported" == "/dev/tcp/*/*" ]; then
+ ( : < /dev/tcp/$1/$2 ) > /dev/null 2>&1;
+ else
+ return 127;
+ fi
+ };
+ function port_used () 
+ { 
+ local port="${1#*:}";
+ local host=$((expr "${1}" : '\(.*\):' || echo "localhost") | awk 'END{print $NF}');
+ local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);
+ for strategy in ${port_strategies[@]};
+ do
+ $strategy $host $port;
+ status=$?;
+ if [[ "$status" == "0" ]] || [[ "$status" == "1" ]]; then
+ return $status;
+ fi;
+ done;
+ return 127
+ };
+ export -f port_used;
+ function find_port () 
+ { 
+ local host="${1:-localhost}";
+ local port=$(random_number "${2:-2000}" "${3:-65535}");
+ while port_used "${host}:${port}"; do
+ port=$(random_number "${2:-2000}" "${3:-65535}");
+ done;
+ echo "${port}"
+ };
+ export -f find_port;
+ function wait_until_port_used () 
+ { 
+ local port="${1}";
+ local time="${2:-30}";
+ for ((i=1; i<=time*2; i++))
+ do
+ port_used "${port}";
+ port_status=$?;
+ if [ "$port_status" == "0" ]; then
+ return 0;
+ else
+ if [ "$port_status" == "127" ]; then
+ echo "commands to find port were either not found or inaccessible.";
+ echo "command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.";
+ return 127;
+ fi;
+ fi;
+ sleep 0.5;
+ done;
+ return 1
+ };
+ export -f wait_until_port_used;
+ function create_passwd () 
+ { 
+ tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}
+ };
+ export -f create_passwd
+}
+BASH_FUNC_ml(): () {  eval "$($LMOD_DIR/ml_cmd "$@")"
+}
+BASH_FUNC_create_passwd(): () {  tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}
+}
+_: /usr/local/anaconda3/bin/python3
+TPU_ML_PLATFORM: Tensorflow
+TF2_BEHAVIOR: 1
+KMP_DUPLICATE_LIB_OK: True
+KMP_INIT_AT_FORK: FALSE
+MODEL_NAME: xlm-roberta-base
+TOKENIZER_NAME: xlm-roberta-base
+EXP_DIR: /home/biyikh/Euphemisms/en_splits
+SAVE_MODELS: True
+LOG: in this experiment i am doing something interesting
+START_FILENUM: 0
+END_FILENUM: 9
+NUM_EPOCHS: 30
+LEARNING_RATE: 1e-5
+WARMUP_STEPS: 0
+BATCH_SIZE: 4
+TRAIN_RESULTS_CSV: /home/biyikh/Euphemisms/en_splits/results_train.csv
+EARLY_STOPPING_PATIENCE: 5
+LAYERS_TO_FREEZE: -1
+SPECIAL_TOKENS: -1
+EVALUATION: True
+TEST_RESULTS_CSV: /home/biyikh/Euphemisms/en_splits/results_test.csv
+LANGS: ['english']
+BULK_TESTING_MODIFIER: -1
+DURATION: 9858.136472702026
+
