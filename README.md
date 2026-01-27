@@ -68,3 +68,4 @@ If you use this repository, please cite the corresponding paper.
 ## License
 
 This repository is released for research purposes.
+This research was supported in part by the National Science Foundation under Grant No. 2226006. 
