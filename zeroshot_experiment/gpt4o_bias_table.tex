@@ -1,0 +1,38 @@
+% GPT-4o Prediction Bias Table
+% Add this to your paper (likely in Section 5.4 or as a supplementary table)
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lccc}
+\toprule
+\textbf{Split} & \textbf{Pred. \% Euph.} & \textbf{Label \% Euph.} & \textbf{$\Delta$} \\
+\midrule
+TR OPET  & 67.3 & 51.2 & +16.1 \\
+TR NOPET & 77.0 & 59.0 & +18.0 \\
+EN OPET  & 64.0 & 52.0 & +12.0 \\
+EN NOPET & 59.2 & 49.4 & +9.8 \\
+\bottomrule
+\end{tabular}
+\caption{GPT-4o prediction distribution compared to actual label distribution. $\Delta$ indicates the difference between predicted and actual euphemistic percentages. GPT-4o consistently over-predicts ``Euphemistic,'' with stronger bias for Turkish (+16--18\%) than English (+10--12\%).}
+\label{tab:gpt4o_bias}
+\end{table}
+
+% Alternative version with more detail (if you want to show raw counts)
+% 
+% \begin{table}[h]
+% \centering
+% \small
+% \begin{tabular}{lcccccc}
+% \toprule
+% \textbf{Split} & \textbf{N} & \textbf{Pred. Euph.} & \textbf{Pred. Lit.} & \textbf{Label Euph.} & \textbf{Label Lit.} & \textbf{$\Delta$} \\
+% \midrule
+% TR OPET  & 1130 & 67.3\% & 32.7\% & 51.2\% & 48.8\% & +16.1 \\
+% TR NOPET & 1002 & 77.0\% & 23.0\% & 59.0\% & 41.0\% & +18.0 \\
+% EN OPET  & 1113 & 64.0\% & 36.0\% & 52.0\% & 48.0\% & +12.0 \\
+% EN NOPET & 973  & 59.2\% & 40.8\% & 49.4\% & 50.6\% & +9.8 \\
+% \bottomrule
+% \end{tabular}
+% \caption{Detailed GPT-4o prediction distribution compared to actual label distribution.}
+% \label{tab:gpt4o_bias_detailed}
+% \end{table}
